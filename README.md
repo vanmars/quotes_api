@@ -8,14 +8,14 @@ _25 October 2020_
 
 ## Description
 
-_This is a follow-along lesson for Epicodus to practice creating a Rails API project. This project uses the `rails new <project_name> --api` command to set up an api project. 
+This is a follow-along lesson for Epicodus to practice creating a Rails API project. This project uses the `rails new <project_name> --api` command to set up an api project. 
 * It has a quotes model, that validates author and content properties. 
 * It contains a search scope method, so that users can search for a quote by author name in the 'get /quotes' route. 
 * It handles exceptions for faulty post and put requests with clear error messages to the user. 
 * It provides success messages for successful put, and delete requests. 
 * It handles excpetions and json rendering through the use of ruby concerns and modules.
 * It uses the Factory Bot gem for DRYing up tests
-* It has a spec/requests folder to handle get and post request testing._
+* It has a spec/requests folder to handle get and post request testing.
 
 
 ## Setup/Installation Requirements
